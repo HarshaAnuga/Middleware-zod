@@ -5,7 +5,7 @@ const app = express();
 const schema = zod.array(zod.number());
 app.use(express.json());
 
-app.post("/", function (req, res) {
+app.post("/kidney", function (req, res) {
   const kidneys = req.body.kidneys;
   const response = schema.safeparse(kidneys);
   response.send({
