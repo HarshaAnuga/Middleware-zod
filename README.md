@@ -1,2 +1,2 @@
 # Middleware-Zod
-This an Express Project thaat involves Middleware And Zod
+This an Express Project that involves Middleware And Zod
